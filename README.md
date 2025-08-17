@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Shadcn UI Kit
 
-## Getting Started
+A large collection of admin dashboards, website templates, UI components, and ready-to-use blocks. Save time and deliver projects faster.
 
-First, run the development server:
+This is a [Next.js 15](https://nextjs.org/) project bootstrapped with [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and React 19.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Follow these steps to get your project up and running locally:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    ```sh
+    git clone https://github.com/bundui/shadcn-ui-kit-dashboard.git
+    cd shadcn-ui-kit-dashboard
+    ```
 
-## Learn More
+2. Install dependencies:
 
-To learn more about Next.js, take a look at the following resources:
+    ```sh
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   If you encounter any problems installing packages, try adding the `--legacy-peer-deps` or `--force` flag:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    ```sh
+    npm install --legacy-peer-deps
+    ```
 
-## Deploy on Vercel
+3. Run the development server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```sh
+    npm run dev
+    # or
+    yarn dev
+    # or
+    pnpm dev
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Open [http://localhost:3000](http://localhost:3000) in your browser to view the result.
+
+4. To edit the project, you can examine the files under the app folder and components folder.
+
+## Minimum system requirements
+
+- Node.js version 20 and above.
+
+Note: If you experience problems with versions above Node.js v20, please replace with version v20.
